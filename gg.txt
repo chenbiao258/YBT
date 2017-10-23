@@ -1,0 +1,38 @@
+mvn install:install-file -Dfile=d:/com.ibm.mq.jar -DgroupId=com.ibm -DartifactId=mq -Dversion=7.0 -Dpackaging=jar
+mvn install:install-file -Dfile=d:/com.ibm.mq.jmqi.jar -DgroupId=com.ibm -DartifactId=mq.jmqi -Dversion=7.0 -Dpackaging=jar
+mvn install:install-file -Dfile=d:/connector.jar -DgroupId=com.ibm -DartifactId=connector -Dversion=7.0 -Dpackaging=jar
+mvn install:install-file -Dfile=d:/com.ibm.mq.commonservices.jar -DgroupId=com.ibm -DartifactId=mq.commonservices -Dversion=7.0 -Dpackaging=jar
+mvn install:install-file -Dfile=d:/com.ibm.mq.headers.jar -DgroupId=com.ibm -DartifactId=mq.headers -Dversion=7.0 -Dpackaging=jar
+
+
+
+mvn install:install-file -Dfile=E:/MQ配置文件/apache-activemq-5.8.0/lib/activemq-broker-5.8.0.jar -DgroupId=com.ibm -DartifactId=broker-5.8.0 -Dversion=5.8 -Dpackaging=jar
+mvn install:install-file -Dfile=E:/MQ配置文件/apache-activemq-5.8.0/lib/activemq-client-5.8.0.jar -DgroupId=com.ibm -DartifactId=client-5.8.0 -Dversion=5.8 -Dpackaging=jar
+mvn install:install-file -Dfile=E:/MQ配置文件/apache-activemq-5.8.0/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar -DgroupId=com.ibm -DartifactId=spec-1.0.1 -Dversion=5.8 -Dpackaging=jar
+mvn install:install-file -Dfile=E:/MQ配置文件/apache-activemq-5.8.0/lib/geronimo-jms_1.1_spec-1.1.1.jar -DgroupId=com.ibm -DartifactId=spec-1.1.1.jar -Dversion=5.8 -Dpackaging=jar
+mvn install:install-file -Dfile=E:/MQ配置文件/apache-activemq-5.8.0/lib/slf4j-api-1.6.6.jar -DgroupId=com.ibm -DartifactId=1.6.6.jar -Dversion=5.8 -Dpackaging=jar
+
+
+
+
+
+mvn install:install-file -Dfile=E:/HTTPJAR/dhbcore.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=12.1.0.2.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=E:/HTTPJAR/httpclient-4.5.3.jar -DgroupId=com.oracle -DartifactId=httpclient -Dversion=4.5 -Dpackaging=jar
+
+mvn install:install-file -Dfile=E:/HTTPJAR/httpclient-cache-4.5.3.jar -DgroupId=com.oracle -DartifactId=httpclient-cache -Dversion=4.5 -Dpackaging=jar
+
+mvn install:install-file -Dfile=E:/HTTPJAR/httpclient-win-4.5.3.jar -DgroupId=com.oracle -DartifactId=httpclient-win -Dversion=4.5 -Dpackaging=jar
+
+mvn install:install-file -Dfile=E:/HTTPJAR/httpcore-4.4.6.jar -DgroupId=com.oracle -DartifactId=httpcore -Dversion=4.5 -Dpackaging=jar
+
+
+mvn install:install-file -Dfile=E:/HTTPJAR/httpmime-4.5.3.jar -DgroupId=com.oracle -DartifactId=httpmime -Dversion=4.5 -Dpackaging=jar
+
+
+
+
+select * from ldcustomer;
+select * from ldcustomeracount;
+select * from ldcustomerid;
+select * from ldcustomeraddr
